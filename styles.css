@@ -1,0 +1,156 @@
+:root {
+  --primary-color: rgba(75, 216, 204, 0.89);
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+body{
+  margin: 100px auto;
+  background-color: #17004d;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #9ce7af;
+}
+
+.primary-link {
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+
+.col-md-6 {
+ padding: 20px;
+}
+
+
+h1 {
+  font-size: 50px;
+  color: #9ce7af;
+  text-align: center;
+}
+h2 {
+  font-size: 38px;
+  color: #9ce7af;
+  text-align: center
+}
+
+h3 {
+  font-size: 32px;
+  opacity: 0.6;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--secondary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--secondary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  color: #687bcf;
+}
+
+.navbar-toggler-icon {
+  color: #9ce7af;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.6;
+  }
+
+
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
